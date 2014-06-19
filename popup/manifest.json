@@ -1,0 +1,22 @@
+{
+  "manifest_version": 2,
+
+  "name": "GuiaNica Popup",
+  "author": "GuiaNica",
+  "description": "This extension for guianica.",
+  "version": "1.0",
+
+  "permissions": [
+    "http://guianica.com/"
+  ],
+  "icons": {
+    "19": "icons/icon32.png",
+    "38": "icons/icon48.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "browser_action": {
+    "default_icon": "icons/icon32.png",
+    "default_popup": "popup.html"        // optional
+  }
+}
