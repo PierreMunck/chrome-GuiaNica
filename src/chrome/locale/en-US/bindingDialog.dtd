@@ -1,0 +1,17 @@
+<!ENTITY xulschoolhello.bindingDialog.title    "XBL Bindings Test">
+
+<!ENTITY xulschoolhello.newPerson.label      "New Person">
+<!ENTITY xulschoolhello.name.label           "Name:">
+<!ENTITY xulschoolhello.greeting.label       "Greeting:">
+<!ENTITY xulschoolhello.image.label          "Image:">
+
+<!ENTITY xulschoolhello.choose.label         "Choose...">
+<!ENTITY xulschoolhello.choose.accesskey     "C">
+
+<!ENTITY xulschoolhello.addPerson.label      "Add Person">
+<!ENTITY xulschoolhello.addPerson.accesskey  "A">
+
+<!ENTITY xulschoolhello.personList.label     "Person List">
+
+<!ENTITY xulschoolhello.remove.label         "Remove">
+<!ENTITY xulschoolhello.remove.accesskey     "R">

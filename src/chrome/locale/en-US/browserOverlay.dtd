@@ -1,0 +1,9 @@
+<!ENTITY xulschoolhello.hello.label            "Hello World!">
+<!ENTITY xulschoolhello.helloMenu.accesskey    "l">
+<!ENTITY xulschoolhello.helloItem.accesskey    "H">
+
+<!ENTITY xulschoolhello.bindingItem.label        "Binding Test">
+<!ENTITY xulschoolhello.bindingItem.accesskey    "B">
+
+<!ENTITY xulschoolhello.remove.label        "Remove">
+<!ENTITY xulschoolhello.remove.accesskey    "R">

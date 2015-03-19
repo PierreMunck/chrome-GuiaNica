@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet type="text/css" href="chrome://global/skin/" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://mozapps/content/preferences/preferences.css" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://xulschoolhello/content/bindings.css" ?>
+<?xml-stylesheet type="text/css"
+  href="chrome://xulschoolhello/skin/bindingDialog.css" ?>
+
+<!DOCTYPE dialog SYSTEM
+  "chrome://xulschoolhello/locale/bindingDialog.dtd">
+
+<dialog id="xulschoolhello-browser-overlay" buttons="accept"
+  title="&xulschoolhello.bindingDialog.title;"
+  xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <script type="application/x-javascript"
+    src="chrome://xulschoolhello/content/bindingDialog.js" />
+
+  <stringbundleset>
+    <stringbundle id="xulschoolhello-string-bundle"
+      src="chrome://xulschoolhello/locale/browserOverlay.properties" />
+  </stringbundleset>
+
+  <hbox>
+    <groupbox id="xulschoolhello-new-person-form">
+      <caption label="&xulschoolhello.newPerson.label;" />
+      <label control="xulschoolhello-person-name"
+        value="&xulschoolhello.name.label;" />
+      <textbox id="xulschoolhello-person-name" />
+      <label control="xulschoolhello-person-greeting"
+        value="&xulschoolhello.greeting.label;" />
+      <textbox id="xulschoolhello-person-greeting" />
+      <label control="xulschoolhello-person-image"
+        value="&xulschoolhello.image.label;" />
+      <hbox>
+        <filefield id="xulschoolhello-person-image" />
+        <button label="&xulschoolhello.choose.label;"
+          accesskey="&xulschoolhello.choose.accesskey;"
+          oncommand="XULSchoolChrome.BindingDialog.chooseImage(event);" />
+      </hbox>
+      <button label="&xulschoolhello.addPerson.label;"
+        accesskey="&xulschoolhello.addPerson.accesskey;"
+        oncommand="XULSchoolChrome.BindingDialog.addPerson(event);" />
+    </groupbox>
+
+    <groupbox id="xulschoolhello-person-list">
+      <caption label="&xulschoolhello.personList.label;" />
+    </groupbox>
+  </hbox>
+</dialog>

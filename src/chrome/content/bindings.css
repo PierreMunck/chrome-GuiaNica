@@ -1,0 +1,3 @@
+xshelloperson {
+  -moz-binding: url("chrome://xulschoolhello/content/person.xml#person");
+}

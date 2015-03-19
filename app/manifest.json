@@ -16,6 +16,7 @@
     "128": "icons/icon128.png"
   },
   "app": {
+    "default_icon": "icons/icon128.png",
     "launch": {
       "local_path": "app.html"
     }
